@@ -1,0 +1,19 @@
+html {
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    background-image: url("assets/img/background.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media (max-width:1366px) { }
+@include media-breakpoint-down(lg)  { }
+@include media-breakpoint-down(md)  { }
+@include media-breakpoint-down(sm)  { }
+@include media-breakpoint-down(def) { }
